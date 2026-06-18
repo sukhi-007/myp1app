@@ -24,7 +24,7 @@ stage('Test'){
 
 stage('Run application'){
   steps{
-   sh 'java -jar target/MyP1App-1.0-SNAPSHOT.jar
+   sh 'java -jar target/MyP1App-1.0-SNAPSHOT.jar'
 }
 
 }
